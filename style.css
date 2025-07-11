@@ -16,6 +16,10 @@
 
 }
 /* ......Shared Style......... */
+
+main{
+    background-color:#F5F7FE;
+}
 .primary_btn{
     color:#FFFFFF ;
     background-color: #4E47FF;
@@ -24,8 +28,18 @@
     font-size: 16px;
     font-weight: bold;
     padding: 18px 35px;
-    /* margin: 3px 7px; */
+     cursor: pointer;
+     font-family: sans-serif;
 
+    
+
+}
+
+.primary_btn:hover{
+background-color: #fbfbff ;
+box-shadow: 0 6px 20px rgba(67, 56, 202, 0.4);
+transform: translateY(3px) scale(1.03);
+color: #4E47FF;
 }
 
 .center{
@@ -36,7 +50,6 @@ text-align: center;
     font-size: 40px;
     color:#252432 ;
     font-weight: bold;
-    /* padding: 15px 0; */
     margin: 0 0 15px 0;
 }
 
@@ -56,6 +69,8 @@ header{
         width:100%;
         height: 100vh;
      /* margin-bottom: 20px; */
+         background-color:#F5F7FE;
+
 
 
 }
@@ -94,7 +109,8 @@ nav{
     max-width: 1140px;
     height: 325px;
     display: flex;
-    margin: 120px auto;
+    margin: 0px auto;
+    padding: 120px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -114,30 +130,7 @@ img{
 }
 
 
-/* .action{
-    max-width: 1140px;
-    height: 325px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 120px 0 0 0;
-    background-color: #4E47FF;
-}
 
-.content{
-    max-width: 520px;
-    max-height: 200px;
-}
-
-img{
-    width:400px;
-    height: 320px;
-    border: 0;
-    border-radius: 35px;
-}
-
-*/
 
 
 
@@ -259,5 +252,124 @@ img{
     color: #B3B3B3;
     padding: 0;
     margin: 0;
+
+}
+
+
+
+/* ...............Let’s Get in Touch Section................ */
+
+.touch{
+    max-width:1140px;
+    height: 630px;
+    margin: 120px  auto;
+    padding: 71px 0;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.touch_title .section_title{
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+    height: 232px;
+    margin: 200px 0 ;
+    padding: 0;
+    text-align:left;
+
+}
+
+.touch_form{
+    text-align:left;
+    width: 570px;
+    align-items: left;
+}
+
+.form{
+    padding: 10px;
+     margin: 10px;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin: 10px 0;
+    font-family: "Poppins",sans-serif;
+
+}
+input{
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 7px;
+    width:100%;
+    height: 70px;
+    margin: 10px 0 20px 0;
+    border: 1px solid white;
+    font-family: "Poppins",sans-serif;
+
+}
+
+textarea{
+    width: 97%;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px 0 20px 0;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: "Poppins",sans-serif;
+
+}
+
+.form .primary_btn{
+    width:103%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+/* ............logo section............... */
+
+.logo_section{
+    background-color: #FFFFFF;
+    max-width:531px;
+    height: 221px;
+    margin: 0px  auto;
+    padding: 30px 0 130px 0;
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+
+  .logo_title_cont .section_title {
+    color: #4E47FF;
+    font-size: 100px;
+    font-family: "inter";
+}
+
+.logo_title_cont .data_subtitle{
+    font-size: 20px;
+    color: #8987A1;
+    width: 670px;
+    height: 48px;
+    padding-bottom: 25px;
+    /* background-color: antiquewhite; */
+}
+
+.logo_link ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none; 
+
+
+}
+
+.logo_link ul a{
+text-decoration: none;
+font-size: 20px;
+color: #8987A1;
+margin-bottom: 0;
 
 }
