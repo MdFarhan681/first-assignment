@@ -1,11 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 *{
     /* margin: 0;
     padding: 0; */
-    font-family: "raleway";
+    font-family: "raleway",sans-serif;
+
     /* box-sizing: border-box; */
 
 }
@@ -30,16 +36,16 @@ text-align: center;
     font-size: 40px;
     color:#252432 ;
     font-weight: bold;
-    padding: 5px 0;
-    margin: 5px 0;
+    /* padding: 15px 0; */
+    margin: 0 0 15px 0;
 }
 
 .section_subtitle{
     font-size: 24px;
     color:rgba(37, 36, 50, 0.53) ;
     font-weight: 400 ;
-    padding: 15px 40px 20px 0;
-    margin: 5px 0;
+    /* padding: 25px 0 0 0; */
+    margin: 20px 0;
 
 }
 
@@ -67,6 +73,8 @@ nav{
     color: #4E47FF;
     font-size:34px ;
     font-weight:black;
+    font-family: "Poppins",sans-serif;
+
 }
 
 /* ....Bnnaer...... */
@@ -81,17 +89,19 @@ nav{
 
 
 /* ...............Action Section................ */
+
 .action{
+    max-width: 1140px;
+    height: 325px;
     display: flex;
-    margin: 116px 140px;
+    margin: 120px auto;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 .content{
-    margin-right: 220px;
+    max-width: 520px;
+    max-height: 200px;
 }
 
 
@@ -100,6 +110,72 @@ img{
     width:400px;
     height: 320px;
     border: 0;
-    border-radius: 30px;
-    padding-left: 10px;
+    border-radius: 35px;
 }
+
+
+/* .action{
+    max-width: 1140px;
+    height: 325px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0 0 0;
+    background-color: #4E47FF;
+}
+
+.content{
+    max-width: 520px;
+    max-height: 200px;
+}
+
+img{
+    width:400px;
+    height: 320px;
+    border: 0;
+    border-radius: 35px;
+}
+
+*/
+
+
+
+
+
+/* ...............Productive User Section................ */
+
+.productive{
+    max-width: 1140px;
+    height: 306px;
+    background-color:rgba(77, 71, 255, 0.107) ;
+    border: 0;
+    border-radius: 30px;
+    margin: 120px  auto;
+    padding: 50px 0;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+
+.produc_items{
+    display: flex;
+    justify-content:space-around ;
+}
+
+.data{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF ;
+    font-family: "inter";
+    margin: 50px 0 2px 0;
+}
+
+.data_subtitle{
+    font-size: 20px;
+    color:#0000005f ;
+    font-family: "inter";
+    margin: 2px 0 2px 0;
+
+}
+
